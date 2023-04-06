@@ -5,6 +5,7 @@
   "main": "index.js",
   "homepage": "https://github.com/dlijs/vdlijs#readme",
   "scripts": {
+    "bootstrap": "vs bootstrap",
     "build": "lerna run build",
     "dev": "lerna run dev",
     "format": "prettier --cache --write .",
@@ -34,6 +35,9 @@
     "stylelint": "^15.2.0",
     "consola": "^2.15.3",
     "prettier-plugin-organize-imports": "^3.2.2",
-    "webpack": "^5.76.3"
+    "vdlijs": "workspace:*",
+    "vs": "workspace:*",
+    "webpack": "^5.76.3",
+    "zx": "^7.2.1"
   }
 }
