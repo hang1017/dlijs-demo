@@ -1,0 +1,41 @@
+{
+  "name": "vdlijs",
+  "version": "0.0.2-alpha.0",
+  "description": "",
+  "private": true,
+  "keywords": [
+    "umi",
+    "vue",
+    "vue@3",
+    "alita"
+  ],
+  "homepage": "https://github.com/dlijs/vdlijs#readme",
+  "bugs": {
+    "url": "https://github.com/dlijs/vdlijs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlijs/vdlijs.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "vdlijs": "bin/vdlijs.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build",
+    "dev": "father dev"
+  },
+  "dependencies": {
+    "@umijs/preset-vue": "4.0.63",
+    "@umijs/utils": "4.0.63",
+    "umi": "4.0.63"
+  },
+  "gitHead": "b4fea14422353614d8676e5b116ad35b187edba1"
+}

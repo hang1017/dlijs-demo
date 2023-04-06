@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "homepage": "https://github.com/dlijs/vdlijs#readme",
+  "scripts": {
+    "build": "lerna run build",
+    "dev": "lerna run dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "npm run build",
+    "lint": "vs lint",
+    "lint:es": "vs lint --eslint-only",
+    "lint:es-fix": "vs lint --eslint-only --fix",
+    "lint:style": "vs lint --stylelint-only",
+    "lint:style-fix": "vs lint --stylelint-only --fix",
+    "prepare": "is-ci || husky install",
+    "prepublish": "pnpm run build",
+    "release": "lerna publish --force-publish=*",
+    "start": "cd examples/demo && npm run start"
+  },
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@7.24.2",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@umijs/lint": "4.0.63",
+    "@umijs/utils": "4.0.63",
+    "lerna": "^6.5.1",
+    "husky": "^8.0.0",
+    "eslint": "^8.35.0",
+    "father": "^4.1.5",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0",
+    "consola": "^2.15.3",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "webpack": "^5.76.3"
+  }
+}

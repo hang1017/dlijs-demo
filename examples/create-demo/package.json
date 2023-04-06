@@ -1,0 +1,16 @@
+{
+  "name": "@example/create-demo",
+  "private": true,
+  "scripts": {
+    "analyze": "ANALYZE=1 vdlijs build",
+    "build": "vdlijs build",
+    "dev": "vdlijs dev",
+    "preview": "vdlijs preview",
+    "setup": "vdlijs setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "create-vdlijs": "workspace:*"
+  },
+  "devDependencies": {}
+}

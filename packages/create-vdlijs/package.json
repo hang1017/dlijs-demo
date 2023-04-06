@@ -1,0 +1,29 @@
+{
+  "name": "create-vdlijs",
+  "version": "0.0.2-alpha.0",
+  "description": "",
+  "private": true,
+  "keywords": [
+    "umi",
+    "vue",
+    "vue@3",
+    "alita"
+  ],
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "create-vdlijs": "bin/create-vdlijs.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build"
+  },
+  "dependencies": {
+    "@umijs/utils": "4.0.63"
+  }
+}
