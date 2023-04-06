@@ -1,0 +1,16 @@
+{
+  "name": "@example/with-pinia",
+  "private": true,
+  "scripts": {
+    "analyze": "ANALYZE=1 vdlijs build",
+    "build": "vdlijs build",
+    "dev": "vdlijs dev",
+    "preview": "vdlijs preview",
+    "setup": "vdlijs setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "pinia": "^2.0.33",
+    "vdlijs": "workspace:*"
+  }
+}
