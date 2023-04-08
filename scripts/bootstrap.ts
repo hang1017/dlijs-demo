@@ -46,17 +46,17 @@ import { setExcludeFolder } from './.internal/utils';
             },
             repository: {
               type: 'git',
-              url: 'https://github.com/alitajs/valita',
+              url: 'https://github.com/vdiljs/vdiljs',
             },
             authors: [
               'congxiaochen <xiaohuoni@gmail.com> (https://github.com/xiaohuoni)',
             ],
             license: 'MIT',
-            bugs: 'https://github.com/alitajs/valita/issues',
+            bugs: 'https://github.com/vdiljs/vdiljs/issues',
             peerDependencies: {
               vdlijs: 'workspace:*',
             },
-            homepage: `https://github.com/alitajs/valita/tree/master/packages/${opts.pkg}#readme`,
+            homepage: `https://github.com/vdiljs/vdiljs/tree/master/packages/${opts.pkg}#readme`,
             publishConfig: {
               access: 'public',
             },

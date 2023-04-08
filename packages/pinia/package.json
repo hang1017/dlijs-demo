@@ -1,0 +1,32 @@
+{
+  "name": "@vdlijs/vue-pinia",
+  "version": "0.0.2-alpha.0",
+  "description": "@vdlijs/vue-pinia",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build",
+    "dev": "vfather dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdlijs/vdiljs"
+  },
+  "authors": [
+    "congxiaochen <xiaohuoni@gmail.com> (https://github.com/xiaohuoni)"
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/vdlijs/vdiljs/issues",
+  "dependencies": {
+    "vdlijs": "workspace:*",
+    "@vdlijs/vue-utils": "workspace:*"
+  },
+  "peerDependencies": {},
+  "homepage": "https://github.com/vdlijs/vdiljs/tree/master/packages/pinia#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

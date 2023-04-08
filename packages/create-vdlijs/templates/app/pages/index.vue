@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>valita & vue</h1>
+    <h1>vdiljs & vue</h1>
     <h2>{{ hello }}</h2>
-    <h3>{{ valitaHello }}</h3>
+    <h3>{{ vdiljsHello }}</h3>
 
     <div>
       <router-link to="/users/foo">Go to Users Foo</router-link>
@@ -23,7 +23,7 @@ import VantDemo from "@/components/VantDemo.vue";
 const hello = ref<string>("hello vue");
 const app = useAppData();
 
-const valitaHello = inject("vdlijs-hello");
+const vdiljsHello = inject("vdlijs-hello");
 </script>
 <style lang="less" scoped>
 div {

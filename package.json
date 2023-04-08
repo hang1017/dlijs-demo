@@ -36,6 +36,7 @@
     "consola": "^2.15.3",
     "prettier-plugin-organize-imports": "^3.2.2",
     "vdlijs": "workspace:*",
+    "tsx": "^3.12.3",
     "vs": "workspace:*",
     "webpack": "^5.76.3",
     "zx": "^7.2.1"
